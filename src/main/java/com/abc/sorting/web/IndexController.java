@@ -10,4 +10,19 @@ public class IndexController {
         return "index";
     }
 
+    @GetMapping("/sort")
+    public String sort() {
+        return "sort";
+    }
+
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+
+    @GetMapping("/guestbook")
+    public String guestbook() {
+        return "guestbook";
+    }
+
 }

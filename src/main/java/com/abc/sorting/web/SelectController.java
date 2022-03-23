@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class SelectController {
-    @GetMapping("/select")
+    @GetMapping("/sort/start")
     public sortingResultDto select(@RequestParam("method") String method) {
         sortingResultDto result = new sortingResultDto(method);
         return result;
